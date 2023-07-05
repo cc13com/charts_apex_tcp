@@ -33,12 +33,20 @@ Create a Classic or Interactive Report in your APEX application. The Source (Tab
                 and stock_id = a.id
                  group by symbol
             ) as date_values
-  from ST_STOCKS a, st_stocks_year_performance b, v_stocks_week_performance c
+  from ST_STOCKS a
   order by a.long_name
 ```
 
+![SQL_Query](https://github.com/cc13com/charts_apex_tcp/assets/35263232/58e6553b-54e3-49a5-af1b-60da20f79add)
+
+
 With the two column aliases "xlabel" and "ylabel" in this example we set the values for the chart labels. You will find all of this aliases as parameters in the plugin.
 
+Next select the "CHART" column and change the type to the imported "Charts" Plugin.
+
+![Column_in_IR](https://github.com/cc13com/charts_apex_tcp/assets/35263232/0521000f-7cfa-424c-b2c9-72179b42a7a0)
+
+![Column_Settings](https://github.com/cc13com/charts_apex_tcp/assets/35263232/c2b35030-c53a-4e79-89ce-f8a245c03e62)
 
 
 # Installation
