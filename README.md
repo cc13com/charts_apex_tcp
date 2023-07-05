@@ -37,11 +37,15 @@ Create a Classic or Interactive Report in your APEX application. The Source (Tab
   order by a.long_name
 ```
 
+The "ID" column is important for the Charts-JS-Settings file to pass through all rows in the report and create the chart for each row.
+
 With the two column aliases "xlabel" and "ylabel" in this example we set the values for the chart labels. You will find all of this aliases as parameters in the plugin.
 
 Next select the "CHART" column and change the type to the imported "Charts" Plugin.
 
 ![Column_in_IR](https://github.com/cc13com/charts_apex_tcp/assets/35263232/0521000f-7cfa-424c-b2c9-72179b42a7a0)
+
+Last step is to assign the columns from the SQL Query with the parameters in the Plugin settings.
 
 ![Column_Settings](https://github.com/cc13com/charts_apex_tcp/assets/35263232/c2b35030-c53a-4e79-89ce-f8a245c03e62)
 
