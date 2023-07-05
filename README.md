@@ -37,9 +37,6 @@ Create a Classic or Interactive Report in your APEX application. The Source (Tab
   order by a.long_name
 ```
 
-![SQL_Query](https://github.com/cc13com/charts_apex_tcp/assets/35263232/58e6553b-54e3-49a5-af1b-60da20f79add)
-
-
 With the two column aliases "xlabel" and "ylabel" in this example we set the values for the chart labels. You will find all of this aliases as parameters in the plugin.
 
 Next select the "CHART" column and change the type to the imported "Charts" Plugin.
