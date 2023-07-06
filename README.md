@@ -22,14 +22,12 @@ Create a Classic or Interactive Report in your APEX application. The Source (Tab
         (   select listagg(regularmarketpreviousclose, ';') within group(order by datum) as closevalues
                 from st_stocks_historie
                 where trunc(datum) > TRUNC (SYSDATE, 'YEAR')
-                --where trunc(datum) > TRUNC (SYSDATE)-30
                 and stock_id = a.id
                  group by symbol
             ) as measured_values,
             (   select listagg(to_char(datum, 'DD.MM.YYYY'), ';') within group(order by datum) as closedate
                 from st_stocks_historie
                 where trunc(datum) > TRUNC (SYSDATE, 'YEAR')
-                --where trunc(datum) > TRUNC (SYSDATE)-30
                 and stock_id = a.id
                  group by symbol
             ) as date_values
