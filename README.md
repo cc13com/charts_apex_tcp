@@ -43,7 +43,7 @@ With the two column aliases "xlabel" and "ylabel" in this example we set the val
 
 Here is a sample output of the SQL Query:
 
-![SQL_Output](https://github.com/cc13com/charts_apex_tcp/assets/35263232/38aa90ed-1f4d-440f-830a-622f9194041e)
+![SQL_Output_short](https://github.com/cc13com/charts_apex_tcp/assets/35263232/5993539d-c548-4262-afb3-43a1ca9f26aa)
 
 Next select the "CHART" column and change the type to the imported "Charts" Plugin.
 
