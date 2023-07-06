@@ -41,6 +41,10 @@ The "ID" column is important for the Charts-JS-Settings file to pass through all
 
 With the two column aliases "xlabel" and "ylabel" in this example we set the values for the chart labels. You will find all of this aliases as parameters in the plugin.
 
+Here is a sample output of the SQL Query:
+
+![SQL_Output](https://github.com/cc13com/charts_apex_tcp/assets/35263232/38aa90ed-1f4d-440f-830a-622f9194041e)
+
 Next select the "CHART" column and change the type to the imported "Charts" Plugin.
 
 ![Column_in_IR](https://github.com/cc13com/charts_apex_tcp/assets/35263232/0521000f-7cfa-424c-b2c9-72179b42a7a0)
