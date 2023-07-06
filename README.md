@@ -47,7 +47,7 @@ Here is a sample output of the SQL Query:
 
 Next select the "CHART" column and change the type to the imported "Charts" Plugin.
 
-![Column_in_IR](https://github.com/cc13com/charts_apex_tcp/assets/35263232/0521000f-7cfa-424c-b2c9-72179b42a7a0)
+![IR_Report](https://github.com/cc13com/charts_apex_tcp/assets/35263232/67c2f0d8-a41c-4645-8c34-aa3629e7aa22)
 
 Last step is to assign the columns from the SQL Query with the parameters in the Plugin settings.
 
