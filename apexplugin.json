@@ -1,7 +1,7 @@
 {
     "name" : "Charts",
-    "version" : "1.0",
-    "description" : "The Charts APEX Template Component Plugin allows you to display charts in each column of your APEX reports.",
+    "version" : "1.1.0",
+    "description" : "The Charts APEX Template Component Plugin allows you to display a chart in each column of your APEX reports.",
     "keywords" : ["Chart", "Report", "Template Component"],
     "homepage" : "https://github.com/cc13com/charts_apex_tcp",
     "bugs" : {
@@ -28,7 +28,8 @@
           "internalName" : "COM.CC13.CHARTS",
           "type" : "template component",
           "demo" : "https://cc13.xyz/ords/r/cc13/charts-tcp/charts-tcp",
-          "previewImage" : "https://github.com/cc13com/charts_apex_tcp/blob/8e76a2efb8ad6b9063b493e9a90857c155412ecb/assets/Chart_Plugin_Example.png?raw=true"
+          "previewImage" : "https://github.com/cc13com/charts_apex_tcp/blob/92ac2904759431a9527948a10b9fc197a480fa9e/assets/Second_Dataset.png?raw=true"
+          
         }
       }
     }
