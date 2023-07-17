@@ -22,14 +22,12 @@ Create a Classic or Interactive Report in your APEX application. The Source (Tab
         (   select listagg(regularmarketpreviousclose, ';') within group(order by datum) as closevalues
                 from st_stocks_historie
                 where trunc(datum) > TRUNC (SYSDATE, 'YEAR')
-                --where trunc(datum) > TRUNC (SYSDATE)-30
                 and stock_id = a.id
                  group by symbol
             ) as measured_values,
             (   select listagg(to_char(datum, 'DD.MM.YYYY'), ';') within group(order by datum) as closedate
                 from st_stocks_historie
                 where trunc(datum) > TRUNC (SYSDATE, 'YEAR')
-                --where trunc(datum) > TRUNC (SYSDATE)-30
                 and stock_id = a.id
                  group by symbol
             ) as date_values
@@ -41,9 +39,13 @@ The "ID" column is important for the Charts-JS-Settings file to pass through all
 
 With the two column aliases "xlabel" and "ylabel" in this example we set the values for the chart labels. You will find all of this aliases as parameters in the plugin.
 
+Here is a sample output of the SQL Query:
+
+![SQL_Output_short](https://github.com/cc13com/charts_apex_tcp/assets/35263232/5993539d-c548-4262-afb3-43a1ca9f26aa)
+
 Next select the "CHART" column and change the type to the imported "Charts" Plugin.
 
-![Column_in_IR](https://github.com/cc13com/charts_apex_tcp/assets/35263232/0521000f-7cfa-424c-b2c9-72179b42a7a0)
+![IR_Report](https://github.com/cc13com/charts_apex_tcp/assets/35263232/67c2f0d8-a41c-4645-8c34-aa3629e7aa22)
 
 Last step is to assign the columns from the SQL Query with the parameters in the Plugin settings.
 
