@@ -7,6 +7,8 @@ This Template Component Plugin supports "Single (Partial)" usage only. It can be
 # Example
 ![Chart_Plugin_Example](https://github.com/cc13com/charts_apex_tcp/assets/35263232/cdf489d1-363e-4173-824f-46d9438c2c98)
 
+![Second_Dataset](https://github.com/cc13com/charts_apex_tcp/assets/35263232/9b803f09-d9aa-4613-8a57-fe42d62383c8)
+
 # Usage
 
 Create a Classic or Interactive Report in your APEX application. The Source (Table or SQL Query) has to deliver all information needed to fill the chart with information (x- and y-axis). See the example where the column alias "measured_values" fetch the values for the y-axis and the column alias "date_values" fetch the values for the x-axis.
