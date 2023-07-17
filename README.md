@@ -7,8 +7,7 @@ This Template Component Plugin supports "Single (Partial)" usage only. It can be
 # Example
 ![Chart_Plugin_Example](https://github.com/cc13com/charts_apex_tcp/assets/35263232/cdf489d1-363e-4173-824f-46d9438c2c98)
 
-![Second_Dataset](https://github.com/cc13com/charts_apex_tcp/assets/35263232/ca07061a-2ab9-4789-be21-8044c6724146)
-
+![Second_Dataset](https://github.com/cc13com/charts_apex_tcp/assets/35263232/9b803f09-d9aa-4613-8a57-fe42d62383c8)
 
 # Usage
 
